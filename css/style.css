@@ -43,6 +43,9 @@ header{
     padding: 20px 0px;
 }
 
+.py-500{
+    padding: 500px 0px;
+}
 .py-10{
     padding: 10px 0px;
 }
@@ -162,21 +165,9 @@ header{
 
 footer{
     background-color: #302828;
-    margin-top: 0px;
+    height: 680px;
 }
 
-.top-footer{
-    
-    background-color:transparent;
-    border-bottom: 1px solid white;
-
-}
-
-.bottom-footer{
-   
-    padding-top: 150px;
-    
-   
-    
-
+.footer-bottom{
+    border-top: 10px solid white;
 }
