@@ -45,12 +45,17 @@ header{
 
 
 
-.col-20{
-    width: 20%;
+.col-17{
+    width: calc( 100 / 7);
     border: 1px dashed black;
 
 }
 
+.col-17{
+    width: calc( 100 / 7 * 4);
+    border: 1px dashed black;
+
+}
 
 
 .col-25{
