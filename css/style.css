@@ -81,13 +81,13 @@ header{
 
 .col-17{
     width: calc( 100% / 6);
-    border: 1px dashed black;
+    
 
 }
 
 .col-34{
     width: calc( 100% / 6 * 2);
-    border: 1px dashed black;
+  
 
 }
 
@@ -116,8 +116,7 @@ header{
 
 .col-100{
     width: 100%;
-    display: flex;
-    justify-content: center;
+
    
 }
 
@@ -180,11 +179,11 @@ header{
 
 footer{
     background-color: #302828;
-    height: 680px;
+    
 }
 
 .footer-bottom{
-    border-top: 10px solid white;
+    border-bottom: 1px solid #4E5B8B;
 }
 
 /* classe utility */
@@ -309,15 +308,65 @@ h2{
     padding-right: 180px;
     text-align: center;
 }
-
-.bg-img-big{
+/* 
+.bg-img-stars{
     background-image: url(../img/stars.svg);
     background-size: cover;
     background-repeat: no-repeat;
-}
+    
+} */
 
 .btn-dowload{
     background-color: #8ea1e1;
     color: beige;
     border: none;
+}
+
+.pyx-20{
+    padding: 20px 20px;
+}
+
+.ul-style{
+    list-style-type: none;
+}
+
+.ul-style li{
+    color: white;
+    padding: 5px 0px;
+
+}
+
+.t-footer{
+    color: #4E5B8B;
+    padding: 10px 0px;
+}
+
+.flag-ita{
+    width: 25px;
+    height: auto;
+    margin-right: 4px;
+    padding-bottom: 2px;
+}
+
+.white{
+    color: white;
+}
+
+.arrow{
+    color: white;
+    padding-bottom: 3px;
+    padding-left: 4px;
+}
+
+.btn-register{
+    padding: 8px 20px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    background-color: #8ea1e1;
+}
+
+.li-decoration{
+    text-decoration: none;
+    color: white;
 }
