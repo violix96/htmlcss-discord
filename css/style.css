@@ -15,7 +15,7 @@ header{
 
 .container{
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 0px auto;
     
 }
 
@@ -238,9 +238,6 @@ h2{
     text-decoration: none;
     line-height: 3;
     font-weight: bold;
-    
-    
-    
 }
 
 .btn-discord-browser {
@@ -253,11 +250,6 @@ h2{
     font-weight: bold;
     margin-left: 100px;
     color: white;
-    
-
-    
-    
-    
 }
 
 .bt-position{
